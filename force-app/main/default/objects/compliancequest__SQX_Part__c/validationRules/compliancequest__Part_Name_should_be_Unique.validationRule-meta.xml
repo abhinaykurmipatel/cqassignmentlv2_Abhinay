@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>compliancequest__Part_Name_should_be_Unique</fullName>
+    <active>true</active>
+    <errorConditionFormula>VLOOKUP( $ObjectType.compliancequest__SQX_Part__c.Fields.Name , $ObjectType.compliancequest__SQX_Part__c.Fields.Name, Name)= Name 
+&amp;&amp;
+( ISNEW() || PRIORVALUE(Name) &lt;&gt; Name)</errorConditionFormula>
+    <errorDisplayField>Name</errorDisplayField>
+    <errorMessage>Part with this name already exists.</errorMessage>
+</ValidationRule>

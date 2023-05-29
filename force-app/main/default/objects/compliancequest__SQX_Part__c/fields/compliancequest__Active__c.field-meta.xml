@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>compliancequest__Active__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>This field,when checked, indicates that the corresponsing Part is Active.
+An active part can be added as a Supplier Part either as Active or Not Active. 
+A non-active part can be added as a Supplier Part only as Not Active.</description>
+    <externalId>false</externalId>
+    <label>Active</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

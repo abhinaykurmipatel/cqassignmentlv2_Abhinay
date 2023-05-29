@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>compliancequest__Part_Type__c</fullName>
+    <deprecated>false</deprecated>
+    <description>This field describes the category/type of a part such as manufacturing/assembly</description>
+    <externalId>false</externalId>
+    <label>Part Type</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Assembly</fullName>
+                <default>false</default>
+                <label>Assembly</label>
+            </value>
+            <value>
+                <fullName>Finished Product</fullName>
+                <default>false</default>
+                <label>Finished Product</label>
+            </value>
+            <value>
+                <fullName>Raw Material</fullName>
+                <default>false</default>
+                <label>Raw Material</label>
+            </value>
+            <value>
+                <fullName>Sub Assembly</fullName>
+                <default>false</default>
+                <label>Sub Assembly</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

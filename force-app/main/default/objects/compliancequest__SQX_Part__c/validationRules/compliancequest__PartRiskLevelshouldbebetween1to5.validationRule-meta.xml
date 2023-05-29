@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>compliancequest__PartRiskLevelshouldbebetween1to5</fullName>
+    <active>true</active>
+    <description>Part_Risk_Level_should_be_between_1-5;1 being HIGHEST Risk and 5 being LOWEST Risk; Issue warning if any number other than 1-5 is entered</description>
+    <errorConditionFormula>AND( NOT($Permission.compliancequest__SQXDataMigrationCustomPermission), NOT( compliancequest__Part_Risk_Level__c &gt;= 1  &amp;&amp; compliancequest__Part_Risk_Level__c &lt;=5  ))</errorConditionFormula>
+    <errorDisplayField>compliancequest__Part_Risk_Level__c</errorDisplayField>
+    <errorMessage>Part Risk Level should be between 1-5</errorMessage>
+</ValidationRule>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>compliancequest__Reason_For_Change__c</fullName>
+    <deprecated>false</deprecated>
+    <description>This field is used to keep track of the reason for changing value of any field of the object.</description>
+    <externalId>false</externalId>
+    <label>Reason For Change</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>TextArea</type>
+</CustomField>
